@@ -1,6 +1,6 @@
 {
   "name": "ipfs-web-app",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "IPFS app tool",
   "main": "index.js",
   "dependencies": {

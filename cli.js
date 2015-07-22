@@ -25,7 +25,7 @@ var pack = function (cb) {
     console.log(e)
   }
   try {
-    buildsteps = conf['ipfs-app'].build
+    buildsteps = conf['ipfs-web-app'].build
   } catch (e) {}
 
   if (typeof buildsteps === 'string') {
