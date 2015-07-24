@@ -13,7 +13,7 @@ module.exports = {
 
       // both
       window.addEventListener('message', function (event) {
-        if (event.data[0] === 'follow') {
+        if (event.data[0] === 'follow' && self.follow) {
           self.follow(event.data[1])
         }
 
@@ -30,7 +30,7 @@ module.exports = {
       // toplevel
       if (!isChild) {
         window.addEventListener('hashchange', function (event) {
-          self.follow(window.location.hash.substr(1))
+          if (self.follow) self.follow(window.location.hash.substr(1))
         }, false)
 
         // toplevel messages
