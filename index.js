@@ -72,7 +72,7 @@ module.exports = {
     }, 100)
 
     iframe.setAttribute('style', iframestyle)
-    iframe.setAttribute('src', 'http://' + window.location.host + '/ipfs/' + hash + '#child')
+    iframe.setAttribute('src', 'http://' + window.location.host + hash + '#child')
 
     mountpoint.appendChild(iframe)
 
