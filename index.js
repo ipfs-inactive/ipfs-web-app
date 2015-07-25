@@ -41,7 +41,7 @@ module.exports = {
         }, false)
 
         // at toplevel we just call init directly
-        self.init(ipfs)
+        self.init(ipfs, window.location.hash.substr(1))
 
       } else {
         // request init parameters from parent
