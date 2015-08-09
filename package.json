@@ -1,10 +1,10 @@
 {
   "name": "ipfs-web-app",
-  "version": "0.1.6",
+  "version": "0.1.8",
   "description": "IPFS app tool",
   "main": "index.js",
   "dependencies": {
-    "ipfs-api": "2.0.1",
+    "ipfs-api": "^2.1.1",
     "jquery": "^2.1.4",
     "kew": "^0.6.0",
     "lodash": "^3.10.0",
